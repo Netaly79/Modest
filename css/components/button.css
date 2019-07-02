@@ -1,0 +1,45 @@
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin:22px 0;
+}
+.button{
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:#ffffff;
+    background-color: transparent;
+    margin-right: 15px;
+    font-family: "Quattrocento Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.button:hover{
+    border: 2px solid #23b7a4;
+    background-color: #23b7a4;
+}
+.work-buttons{
+    margin: 60px auto;
+}
+.button-inverse{
+    border: 2px solid #23b7a4;
+    background-color: #23b7a4;
+    color:white;
+    width: 150px;
+}
+.button-inverse:hover{
+    border: 2px solid #23b7a4;
+    color:#23b7a4;
+    background-color: white;
+}
+.work-buttons{
+    margin:20px auto;
+}
+.work-button{
+    margin:0;
+    padding: 10px 20px;
+}

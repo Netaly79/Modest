@@ -1,0 +1,129 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 80px 0;
+}
+.section-work{
+    padding-bottom: 40px;
+}
+.section-map{
+    padding:70px 0;
+}
+.section-negative{
+    background-color: #3a454d;
+}
+.section-title{
+    color: #292f36;
+    font-family: "Quattrocento Sans";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    border-left: 13px solid#e1e6ea;
+}
+.section-title-negative{
+    color:white;
+}
+.section-text{
+    color: #8d8f92;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section-text-negative{
+    color: white;
+}
+.section-text .bold-text
+{
+    font-family: "Open Sans - Bold";
+    font-weight: 700;
+    font-size: 16px;
+}
+.row {
+    display: flex;
+    margin: 0 -15px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.row > .col {
+    padding: 0 15px;
+}
+.row-left{
+    justify-content: flex-start;
+}
+.col-55{
+    width:55%;
+    display:flex;
+    flex-direction: column;
+}
+.col-45{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+}
+.col-50{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+.col-25{
+    width:25%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.col-33{
+    width:33%;
+    margin-bottom: 20px;
+}
+.goal-header{
+    color: #292f36;
+    font-family: "Quattrocento Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.goal-desc{
+    color: #8d8f92;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top:0px;
+}
+.list-goals{
+    list-style-type: none;
+    counter-reset: number;
+}
+.list-goals li::before{
+    content:"0"counter(number);
+    counter-increment: number;
+    display: inline-block;
+    width:53px;
+    height:53px;
+    background-color: #23b7a4;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.list-goals li{
+    display:flex;
+}
+.grey-line{
+    border:1px solid #e0e9f0;
+    width:100%;
+    color:#dde1e4;;
+    height:3px;   
+}

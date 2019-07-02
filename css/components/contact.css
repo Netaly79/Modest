@@ -1,0 +1,23 @@
+.contact-title{
+    color: #292f36;
+    font-family: "Quattrocento Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left:10px; 
+    padding-bottom: 10px;
+}
+.contact-desc{
+    color: #8d8f92;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.contact-desc .bold{
+    font-family: "Open Sans - Bold";
+    font-weight: 700;
+}

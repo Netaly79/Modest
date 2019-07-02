@@ -1,0 +1,27 @@
+.header{
+    background-color: #1d2126;
+}
+.logo{
+    padding: 31px 0;
+}
+.logo-image{
+    width:99px;
+    height:19px;
+    object-fit: cover;
+}
+.header-container{
+    display:flex;
+    flex-direction: row;
+    margin-top: 0;
+    flex-wrap: nowrap;
+}
+.header-left{
+    flex-basis: 510px;
+    flex-shrink: 0;
+}
+.header-right{
+    flex-grow: 1;
+    padding-top:28px;
+    padding-bottom: 28px;
+    margin:0;
+}
