@@ -16,10 +16,6 @@
 .menu-item.active:hover{
     border: 2px solid #23b7a4;
     color:#23b7a4;
-
-}
-.menu-item:last-child{
-    padding-right: 0;
 }
 .menu-item:hover{
     border: 2px solid #5b6168;
