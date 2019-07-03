@@ -17,7 +17,6 @@
 }
 .person-photo img{
     height:300px;
-    width:100%;
     object-fit: cover;
 }
 .person-image{
@@ -30,7 +29,6 @@
 .card-info-negative{
     background-color: transparent;
     padding: 20px 0px;
-
     color:white;
 }
 .card-title{
@@ -71,14 +69,8 @@
 .person-card:hover .card-desc{
     color:white;
 }
-.work-image{
-    display: block;
-    width:100%;
-    max-width: 100%;
-}
 .work-image img{
     height: 265px;
-    width: 100%;
     object-fit: cover;
 }
 .work-desc{
@@ -143,7 +135,6 @@
 .service-image img{
     display: block;
     height: 48px;
-    width:100%;
     object-fit: cover;
 }
 .servise-image-sm img{
@@ -180,10 +171,12 @@
     width:100%;
 }
 .feature-image img{
-    width:100%;
     height: 240px;
     object-fit: cover;
     margin:0;
+}
+.map{
+    width:100%;
 }
 .map img{
     width:100%;

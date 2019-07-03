@@ -19,7 +19,6 @@
 }
 .social li figure img {
     height:60px;
-    width:100%;
     object-fit: cover;
     border:none;
 }
@@ -33,7 +32,6 @@
 }
 .social-footer li figure img {
     height:30px;
-    width:100%;
     object-fit: cover;
 }
 .social-table{

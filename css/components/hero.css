@@ -33,12 +33,12 @@
 }
 .hero-foreground
 {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: flex;
+    width:650px;
+    margin:0;
     justify-content: center;
-    width: 1140px;
-    margin:0 auto;
+    height: 660px;
+    flex-direction: column;
 }
 .hero-title{
     color: #ffffff;
